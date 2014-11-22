@@ -1,0 +1,31 @@
+{
+  "title": "Web page to source code & viceversa",
+  "id": "jid1-AbgydjrCHAn1fg@jetpack",
+  "version": "1.0.0",
+  "description": "Switch between a web page and its source code easily! Press: Control + Shift + s and enjoy!",
+  "main": "index.js",
+  "author": "Matias Agustin Mendez <matagus@gmail.com>",
+  "engines": {
+    "firefox": ">=33.0a1",
+    "fennec": ">=33.0a1"
+  },
+  "license": "MPL 2.0",
+  "icon": "data/icons/icon-32.png",
+  "icon64": "data/icons/icon-64.png",
+  "preferences": [
+    {
+      "type": "bool",
+      "name": "reloadPage",
+      "value": true,
+      "title": "Reload page?",
+      "description": "Reload the page when getting back from source-code view?"
+    },
+    {
+      "type": "string",
+      "name": "toggleViewShortcut",
+      "value": "control-shift-s",
+      "title": "Shortcut",
+      "description": "Toggle between web page & its source code"
+    }
+  ]
+}
